@@ -1,0 +1,40 @@
+/* 页面背景图配置 */
+
+/* 归档页背景图 */
+#archive-page,
+.page-archive {
+  background-image: url('/img/3.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 标签页背景图 */
+#tag-page,
+.page-tag {
+  background-image: url('/img/4.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 分类页背景图 */
+#category-page,
+.page-category {
+  background-image: url('/img/5.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 确保背景图在所有设备上正常显示 */
+@media (max-width: 768px) {
+  #archive-page,
+  .page-archive,
+  #tag-page,
+  .page-tag,
+  #category-page,
+  .page-category {
+    background-attachment: scroll !important;
+  }
+}
